@@ -8,7 +8,9 @@ A Lean 4 formalization of Theorem 1.1 of [*Regular closed gradient ranges and as
 
 For every integer $n\geq 1$ and every nonzero, compactly supported $C^1$ function $f:\mathbb{R}^n\to\mathbb{R}$, the gradient range is regular closed:
 
-$$\{\nabla f(x):x\in\mathbb{R}^n\}=\overline{\mathrm{int}\{\nabla f(x):x\in\mathbb{R}^n\}}.$$
+$$
+\lbrace\nabla f(x):x\in\mathbb{R}^n\rbrace=\overline{\mathrm{int}\bigl(\lbrace\nabla f(x):x\in\mathbb{R}^n\rbrace\bigr)}.
+$$
 
 The formal statement uses Mathlib's Euclidean space, gradient, compact support, interior and closure. Its hypotheses are precisely dimension at least one, continuous differentiability, nonzeroness and compact support. It assumes no symplectic rigidity result or analytic existence theorem.
 
