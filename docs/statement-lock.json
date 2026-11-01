@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "source": "https://arxiv.org/abs/2609.05951v1",
+  "sourceLocation": "Definition of a bump; Theorem 1.1; Section 3 proof",
+  "declaration": "PalomarGradientRanges.theorem_1_1",
+  "challengeSha256": "67088c7085064e0313061d71dd8f16d5452d5ec12644401af476b05d3692875a",
+  "signatureSha256": "38db54a16e22c815b26eb833c934d97805399a4596a37f735c863ec47d449f95",
+  "logicalBinderCount": 6,
+  "excessBinderCount": 0
+}

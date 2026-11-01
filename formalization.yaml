@@ -1,0 +1,71 @@
+version: "v0.4"
+project:
+  name: "Regular closed gradient ranges of continuously differentiable bumps"
+  description: >-
+    A Lean 4 formalization of Theorem 1.1 of arXiv:2609.05951: for every
+    positive finite dimension, the gradient range of a nonzero, compactly
+    supported continuously differentiable real-valued function on Euclidean
+    space equals the closure of its interior. The repository includes the
+    auxiliary proof dependencies and a Challenge/Solution comparison surface.
+  authors: ["Tao Hu"]
+  responsible_maintainers: ["Tao Hu"]
+  license: "Apache-2.0"
+classification:
+  arxiv: ["math.CA", "math.SG"]
+  msc2020: ["26B05", "53D05", "53D12"]
+sources:
+  - title: "Regular closed gradient ranges and asymptotic gradient values"
+    authors: ["Tao Hu"]
+    type: "paper"
+    id: "https://arxiv.org/abs/2609.05951v1"
+    location: "Theorem 1.1; the definition of a bump in Section 1; the proof in Section 3"
+    relationship: "formalizes"
+    note: >-
+      The source theorem assumes only positive finite dimension and a
+      nonzero compactly supported C1 function. These are the hypotheses of
+      the compared declaration. No manuscript TeX is distributed here.
+status:
+  scope: >-
+    The selected result is PalomarGradientRanges.theorem_1_1. Its complete
+    production proof passed local Lean 4.35 compilation, axiom auditing,
+    Comparator statement comparison, and Lean and NanoDa kernel replay.
+    The Challenge has
+    one deliberate statement-only sorry; production proofs and definitions
+    contain no admitted proof. Other main results of the manuscript are
+    outside the advertised scope.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+automation:
+  methods:
+    - method: "agent"
+      models: ["Codex", "Aristotle"]
+      framework: "Lean 4 and Mathlib"
+      tool_setup: >-
+        Existing Aristotle-assisted Lean proof components, Codex source
+        alignment and Lean 4.35 migration, local Linux compilation, axiom
+        auditing, and sandboxed Comparator/NanoDa verification.
+      prompting_notes: >-
+        The formalization was developed from the original informal
+        mathematical proof and the existing Lean development. The exact
+        underlying model versions and historical total cost were not recorded.
+  notes: >-
+    Verification runs locally rather than through GitHub Actions.
+    AI tools are disclosed as automation, not as human authors or reviewers.
+fidelity:
+  divergences: >-
+    The compared statement is exactly Theorem 1.1 using canonical Mathlib
+    notions. The proof uses the included finite-dimensional variational
+    zero-section rigidity proof to discharge the rigidity ingredient.
+    This changes an auxiliary proof route without adding a premise or
+    changing the theorem. No other manuscript main theorem is advertised.
+review:
+  status: "self-assessed"
+  reviewers: []
+  notes: >-
+    Source correspondence and release integrity received an independent AI
+    source review. Mechanical verification is documented in verification/RESULTS.md.
+    No independent human peer review or Palomar acceptance is claimed.
+acknowledgements: >-
+  Lean, Mathlib, Codex, Aristotle, and the LeanAutoformalizationSkills
+  development guidance.

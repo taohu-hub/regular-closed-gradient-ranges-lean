@@ -1,0 +1,6 @@
+.lake/
+*.olean
+*.olean.*
+*.ilean
+*.trace
+verification/local/

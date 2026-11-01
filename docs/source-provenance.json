@@ -1,0 +1,109 @@
+{
+  "paper": "https://arxiv.org/abs/2609.05951v1",
+  "scope": "Theorem 1.1 and its complete proof dependencies",
+  "proofRoute": "gradient-graph rigidity using a proved finite-dimensional zero-section variational argument",
+  "modules": [
+    {
+      "module": "GradientRanges.Asymptotic",
+      "file": "GradientRanges/Asymptotic.lean",
+      "developmentSha256": "d39f6e18d75b8eceab3e4ce43f4365bed8f2822b586f7d8fa1b068e10135620c",
+      "releaseSha256": "56720ef2207809e2f7f2524c9ff697c45c0d1b4c02ef507cd0bdbf49a0b398ca"
+    },
+    {
+      "module": "GradientRanges.Brouwer",
+      "file": "GradientRanges/Brouwer.lean",
+      "developmentSha256": "d9566bb3a2d298d4692d73553e7ecdba9cca72b4f7885b065d9ffbe1a85b7b6f",
+      "releaseSha256": "7d85bf9cc5c5370d88f32cc7b9e2d87dadebd68580f685d3952a4fffd7acec57"
+    },
+    {
+      "module": "GradientRanges.C0Invariance",
+      "file": "GradientRanges/C0Invariance.lean",
+      "developmentSha256": "dfb80bf92ddf879a1ed23b47b3550d09d6b434ac001c69c3233128f1420e8fb3",
+      "releaseSha256": "8ba34a32e123e552e45149e40c23d09f2338e3550d6b982cb1fb49d18d3005cc"
+    },
+    {
+      "module": "GradientRanges.Deformation",
+      "file": "GradientRanges/Deformation.lean",
+      "developmentSha256": "1fbef3b90acf194c3f96c46e455b45984184f972691fe64420b9647386cdac45",
+      "releaseSha256": "1fbef3b90acf194c3f96c46e455b45984184f972691fe64420b9647386cdac45"
+    },
+    {
+      "module": "GradientRanges.Defs",
+      "file": "GradientRanges/Defs.lean",
+      "developmentSha256": "71576ec0c57110b15a2c868be12ec039b14eef30a6615d3842e4aade6c89b9a8",
+      "releaseSha256": "fb32bef71d7a12c919fe845331a49650b625415945a854fd8c2f1a2b85c238d8"
+    },
+    {
+      "module": "GradientRanges.DiscreteAction",
+      "file": "GradientRanges/DiscreteAction.lean",
+      "developmentSha256": "888be10c1ae0c2fac4b00c4605fb5b64472c08031d297563a52cd38c9751199c",
+      "releaseSha256": "d525c70d55124be01e77e2f304a7f9ea3abe0c1c577227b04d1244be7793090b"
+    },
+    {
+      "module": "GradientRanges.DiscreteEuler",
+      "file": "GradientRanges/DiscreteEuler.lean",
+      "developmentSha256": "c544d4ffb58140b5fc56990eeb3318de310e80aa594e463c7d985fe9eace88c7",
+      "releaseSha256": "c89842ffccd0bc283b4c9d85207ee514a487ccc03fbe6ce9f2c32a26c1ae0d85"
+    },
+    {
+      "module": "GradientRanges.Flow",
+      "file": "GradientRanges/Flow.lean",
+      "developmentSha256": "f95a801871aaedcd1810dcf412e4c4f9a55c83ab92fdbb56207d7ee58c9ea7c3",
+      "releaseSha256": "235ca2bf8e7056e782fd8613244e6da8983161125736c96a838aae099ac68da7"
+    },
+    {
+      "module": "GradientRanges.Graph",
+      "file": "GradientRanges/Graph.lean",
+      "developmentSha256": null,
+      "releaseSha256": "e3d09465bc8020a156b8048d2cee4ddd0ea7e44710132a79ec49f4c711e5b74a"
+    },
+    {
+      "module": "GradientRanges.Mollify",
+      "file": "GradientRanges/Mollify.lean",
+      "developmentSha256": "30ef1a9fd973c958fd41a70a56dba15120a88e2fd0b7347c342b4c03b3f0ea7f",
+      "releaseSha256": "4d9ca3eac54c9b6816ae13d83f1ca92ffe8396ffd39304cb66fefb4c9b768fec"
+    },
+    {
+      "module": "GradientRanges.Oscillation",
+      "file": "GradientRanges/Oscillation.lean",
+      "developmentSha256": "f91d5fe97e142dac0dd81dba94204238743b53c00a86d81dc9fb7f9582a3b62e",
+      "releaseSha256": "b1a9461606f9f05b6dd7ba9933fc5830a49aa2158f5ca4877fd88f52dd876db6"
+    },
+    {
+      "module": "GradientRanges.Projection",
+      "file": "GradientRanges/Projection.lean",
+      "developmentSha256": "863b6eddddda5c9986b03f064938a20b5a33703fe2a8d549c02de5e5b0a8ca95",
+      "releaseSha256": "ee658ec6cd12f0c7519183ee891cd3ebcad255243963f1dd2c9d419705da8193"
+    },
+    {
+      "module": "GradientRanges.Shear",
+      "file": "GradientRanges/Shear.lean",
+      "developmentSha256": "e0de04b79518ea8cf0b9af627fbdfec6409c1e5b7cbbcc2f2b447c6cfa19d723",
+      "releaseSha256": "a97fb9d3558e96b2364f3429a8fc74763c25250141be5ca9917904993dec0c01"
+    },
+    {
+      "module": "GradientRanges.Theorem11",
+      "file": "GradientRanges/Theorem11.lean",
+      "developmentSha256": null,
+      "releaseSha256": "3dffd11b46e2969aa1b51f2fb22a0d933478ac3f5084fb805f0abb71dffa7546"
+    },
+    {
+      "module": "GradientRanges.ZeroSectionRigid",
+      "file": "GradientRanges/ZeroSectionRigid.lean",
+      "developmentSha256": "f0fc82104c37964b640223c0dcf5629cc710a5f187793c7a1abdd89330fab14f",
+      "releaseSha256": "d4bf681080aa3f683bf7d8727e76fa1f586bb9da00eb46fd701d772d483efda5"
+    },
+    {
+      "module": "GradientRanges.ZeroSectionVariational",
+      "file": "GradientRanges/ZeroSectionVariational.lean",
+      "developmentSha256": "eb67b9c865d1c03d2d8c6f46290306d9e359523801cfce7449466dd9b26542cd",
+      "releaseSha256": "76a3a7ad41141c88cb4cba779f1743a637a1c65ba2babd887f1dcda97ee782e4"
+    },
+    {
+      "module": "ProofAudit",
+      "file": "ProofAudit.lean",
+      "developmentSha256": "01ea9471cfda16c920373367f448f7f6f9a54f5ec8b19ec0b6c0b2ee4929f713",
+      "releaseSha256": "01ea9471cfda16c920373367f448f7f6f9a54f5ec8b19ec0b6c0b2ee4929f713"
+    }
+  ]
+}

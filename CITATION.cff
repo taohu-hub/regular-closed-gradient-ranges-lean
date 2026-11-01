@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the mathematical paper and this formalization when using the code."
+title: "Regular closed gradient ranges: a Lean formalization of Theorem 1.1"
+type: software
+authors:
+  - family-names: "Hu"
+    given-names: "Tao"
+version: "0.1.0"
+date-released: "2026-11-01"
+license: Apache-2.0
+references:
+  - type: article
+    title: "Regular closed gradient ranges and asymptotic gradient values"
+    authors:
+      - family-names: "Hu"
+        given-names: "Tao"
+    year: 2026
+    url: "https://arxiv.org/abs/2609.05951v1"

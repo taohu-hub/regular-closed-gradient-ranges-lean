@@ -1,0 +1,10 @@
+Fresh checkout, Ubuntu 24.04 x86_64, Lean 4.35.0, 2026-11-01.
+
+'PalomarGradientRanges.theorem_1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9071 jobs).
+nanoda kernel accepts the solution
+Lean default kernel accepts the solution
+Your solution is okay!
+con-ron: accepted 55583 declarations (--verified)
+Advisory con-ron replay: accepted (complete).
+PASS: the documented verification script passed from an artifact-free fresh Git checkout.

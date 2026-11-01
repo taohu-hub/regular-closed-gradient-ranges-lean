@@ -1,0 +1,18 @@
+{
+  "name": "con-ron",
+  "status": "accepted",
+  "reason": "complete",
+  "exit_code": 0,
+  "detail": "con-ron: accepted 55583 declarations (--verified)\n\ncon-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)",
+  "policyCommit": "14aa8d6b3c2f14a8540605e37144560b9a00e7e7",
+  "checker": {
+    "kind": "maintainer-pinned-release",
+    "source_toolchain": "leanprover/lean4:v4.35.0",
+    "release_tag": "v4.36.0-rc1",
+    "release_commit": "c9afcddf514a6772bd4d649f7cfc04eff0b9f15e",
+    "archive_sha256": "26b3cea1a006ad419215520b8668dcd3f6a9eeba1a123756563a739f9c6274b2",
+    "binary_sha256": "4e5616d94374cae37324dad2594f6230c2bb2297240249fc78ff508f3bc5acef",
+    "archive_url": "https://github.com/leanprover/lean4/releases/download/v4.36.0-rc1/lean-4.36.0-rc1-linux.tar.zst"
+  },
+  "solutionExportSha256": "b9073c0ed23046fc339dac796b3a5ed25fc5a4dc19f1a1103d00f6392671fb9d"
+}

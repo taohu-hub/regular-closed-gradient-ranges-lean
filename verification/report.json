@@ -1,0 +1,60 @@
+{
+  "checkedAtUtc": "2026-11-01T17:05:32Z",
+  "status": "passed-local-verification",
+  "declaration": "PalomarGradientRanges.theorem_1_1",
+  "paperSource": "https://arxiv.org/abs/2609.05951v1",
+  "sourceResult": "Theorem 1.1",
+  "toolchain": "leanprover/lean4:v4.35.0",
+  "mathlibCommit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "palomarPolicyCommit": "14aa8d6b3c2f14a8540605e37144560b9a00e7e7",
+  "command": "bash scripts/verify.sh",
+  "exitCode": 0,
+  "environment": {
+    "os": "Ubuntu 24.04",
+    "architecture": "x86_64",
+    "runtime": "WSL2",
+    "sandbox": "bubblewrap",
+    "githubActionsUsed": false
+  },
+  "source": {
+    "leanModuleFiles": 21,
+    "productionProofHoles": 0,
+    "customAxiomDeclarations": 0,
+    "deliberateChallengeHoles": 1,
+    "leanSourceTreeSha256": "04084baa50fb4b6bab188b7a30ff9deddcf5a00c5019f709c61a9b04e4420c63",
+    "comparedBinders": 6,
+    "excessBinders": 0,
+    "challengeSha256": "67088c7085064e0313061d71dd8f16d5452d5ec12644401af476b05d3692875a",
+    "solutionSha256": "cfe4251086596be78bb2b1192dd111cd65aadee1bee4270d1e6f60006666a84a"
+  },
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "checks": {
+    "layout": "passed",
+    "officialMetadata": "accepted",
+    "fullBuild": "passed",
+    "axiomAudit": "passed",
+    "comparator": "accepted",
+    "leanKernel": "accepted",
+    "nanoDaKernel": "accepted",
+    "advisoryConRon": "accepted",
+    "finalMetadataRevalidation": "accepted"
+  },
+  "freshCheckout": {
+    "initialLakeDirectoryAbsent": true,
+    "projectModulesCompiledAnew": true,
+    "canonicalMathlibCacheUsed": true,
+    "trackedFilesUnchangedAfterVerification": true,
+    "finalCoreFilesMatchedByteForByte": 30,
+    "laterEdits": "Documentation and status records only"
+  },
+  "review": {
+    "independentAiSourceReview": true,
+    "unresolvedFindings": 0,
+    "humanPeerReview": false
+  },
+  "palomarRegistrationClaimed": false
+}
